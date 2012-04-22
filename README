@@ -14,4 +14,18 @@ Wrapper around RedPark Serial library to make life easier.
     Add an item under this new line (left arrow)
     Make the item say "com.redpark.hobdb9" (no quotes)
     
-4. As a test, you can attach to an arduino running the included sketch and the included xcode project
+4. Set your class as the <RedparkWrapperDelegate>
+
+5. Implement the delegate methods. 
+	-(void) newMessageAvailable:(NSString*)msg
+		gets called when a new serial line has been received (line is delimited by \n)
+
+6. Instantiate a redparkWrapper object and set the delegate property to your class
+    rp = [[redparkWrapper alloc] init];
+    [rp setDelegate:self];
+	
+
+6. Send serial data by sending an NSString to [rp sendSerial]
+
+Example:
+As a test, you can attach to an arduino running the included sketch and the included xcode project
