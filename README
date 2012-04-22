@@ -1,0 +1,15 @@
+1. Add these files to your projects
+    redparkWrapper.h/.m
+    RscMgr.h
+    redparkSerial.h
+    
+2. Link Binary With Libraries:
+    ExternalAccessory.framework
+    Other > libRscMgrUniv.a (in subdirectory /lib within this library)
+
+3. Edit the YOUR_PROJECT-info.plist file
+    Add a line for "Supported external accessory protocol"
+    Add an item under this new line (left arrow)
+    Make the item say "com.redpark.hobdb9" (no quotes)
+    
+4. As a test, you can attach to an arduino running the included sketch and the included xcode project

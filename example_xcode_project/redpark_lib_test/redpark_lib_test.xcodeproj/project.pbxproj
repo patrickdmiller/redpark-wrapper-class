@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2B26E51543A3D800F2AFE5 /* redparkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B26E41543A3D800F2AFE5 /* redparkWrapper.m */; };
+		CD2B26F01543AE7000F2AFE5 /* README in Resources */ = {isa = PBXBuildFile; fileRef = CD2B26EF1543AE7000F2AFE5 /* README */; };
+		CD2B26F21543B6F900F2AFE5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2B26F11543B6F900F2AFE5 /* ExternalAccessory.framework */; };
+		CD2B26F41543B9D100F2AFE5 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2B26F31543B9D100F2AFE5 /* libRscMgrUniv.a */; };
+		CDDCC5F215431EE80010AC37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDCC5F115431EE80010AC37 /* UIKit.framework */; };
+		CDDCC5F415431EE80010AC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDCC5F315431EE80010AC37 /* Foundation.framework */; };
+		CDDCC5F615431EE80010AC37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDCC5F515431EE80010AC37 /* CoreGraphics.framework */; };
+		CDDCC5FC15431EE80010AC37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDDCC5FA15431EE80010AC37 /* InfoPlist.strings */; };
+		CDDCC5FE15431EE80010AC37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCC5FD15431EE80010AC37 /* main.m */; };
+		CDDCC60215431EE80010AC37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCC60115431EE80010AC37 /* AppDelegate.m */; };
+		CDDCC60515431EE80010AC37 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDCC60315431EE80010AC37 /* MainStoryboard_iPhone.storyboard */; };
+		CDDCC60815431EE80010AC37 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDCC60615431EE80010AC37 /* MainStoryboard_iPad.storyboard */; };
+		CDDCC60B15431EE80010AC37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDCC60A15431EE80010AC37 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD2B26E31543A3D800F2AFE5 /* redparkWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkWrapper.h; sourceTree = "<group>"; };
+		CD2B26E41543A3D800F2AFE5 /* redparkWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = redparkWrapper.m; sourceTree = "<group>"; };
+		CD2B26EF1543AE7000F2AFE5 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CD2B26F11543B6F900F2AFE5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		CD2B26F31543B9D100F2AFE5 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRscMgrUniv.a; path = ../libs/RedparkWrapper/lib/libRscMgrUniv.a; sourceTree = "<group>"; };
+		CDDCC5ED15431EE80010AC37 /* redpark_lib_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redpark_lib_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDCC5F115431EE80010AC37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDDCC5F315431EE80010AC37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDDCC5F515431EE80010AC37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDDCC5F915431EE80010AC37 /* redpark_lib_test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "redpark_lib_test-Info.plist"; sourceTree = "<group>"; };
+		CDDCC5FB15431EE80010AC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDDCC5FD15431EE80010AC37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDDCC5FF15431EE80010AC37 /* redpark_lib_test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "redpark_lib_test-Prefix.pch"; sourceTree = "<group>"; };
+		CDDCC60015431EE80010AC37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDDCC60115431EE80010AC37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDDCC60415431EE80010AC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CDDCC60715431EE80010AC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CDDCC60915431EE80010AC37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDDCC60A15431EE80010AC37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDDCC623154335330010AC37 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		CDDCC624154335330010AC37 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDDCC5EA15431EE80010AC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2B26F41543B9D100F2AFE5 /* libRscMgrUniv.a in Frameworks */,
+				CD2B26F21543B6F900F2AFE5 /* ExternalAccessory.framework in Frameworks */,
+				CDDCC5F215431EE80010AC37 /* UIKit.framework in Frameworks */,
+				CDDCC5F415431EE80010AC37 /* Foundation.framework in Frameworks */,
+				CDDCC5F615431EE80010AC37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDDCC5E215431EE80010AC37 = {
+			isa = PBXGroup;
+			children = (
+				CD2B26F31543B9D100F2AFE5 /* libRscMgrUniv.a */,
+				CDDCC622154335330010AC37 /* RedparkWrapper */,
+				CDDCC5F715431EE80010AC37 /* redpark_lib_test */,
+				CDDCC5F015431EE80010AC37 /* Frameworks */,
+				CDDCC5EE15431EE80010AC37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDDCC5EE15431EE80010AC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDDCC5ED15431EE80010AC37 /* redpark_lib_test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDDCC5F015431EE80010AC37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B26F11543B6F900F2AFE5 /* ExternalAccessory.framework */,
+				CDDCC5F115431EE80010AC37 /* UIKit.framework */,
+				CDDCC5F315431EE80010AC37 /* Foundation.framework */,
+				CDDCC5F515431EE80010AC37 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDDCC5F715431EE80010AC37 /* redpark_lib_test */ = {
+			isa = PBXGroup;
+			children = (
+				CDDCC60015431EE80010AC37 /* AppDelegate.h */,
+				CDDCC60115431EE80010AC37 /* AppDelegate.m */,
+				CDDCC60315431EE80010AC37 /* MainStoryboard_iPhone.storyboard */,
+				CDDCC60615431EE80010AC37 /* MainStoryboard_iPad.storyboard */,
+				CDDCC60915431EE80010AC37 /* ViewController.h */,
+				CDDCC60A15431EE80010AC37 /* ViewController.m */,
+				CDDCC5F815431EE80010AC37 /* Supporting Files */,
+			);
+			path = redpark_lib_test;
+			sourceTree = "<group>";
+		};
+		CDDCC5F815431EE80010AC37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDDCC5F915431EE80010AC37 /* redpark_lib_test-Info.plist */,
+				CDDCC5FA15431EE80010AC37 /* InfoPlist.strings */,
+				CDDCC5FD15431EE80010AC37 /* main.m */,
+				CDDCC5FF15431EE80010AC37 /* redpark_lib_test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDDCC622154335330010AC37 /* RedparkWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				CDDCC623154335330010AC37 /* redparkSerial.h */,
+				CDDCC624154335330010AC37 /* RscMgr.h */,
+				CD2B26E31543A3D800F2AFE5 /* redparkWrapper.h */,
+				CD2B26E41543A3D800F2AFE5 /* redparkWrapper.m */,
+				CD2B26EF1543AE7000F2AFE5 /* README */,
+			);
+			name = RedparkWrapper;
+			path = ../libs/RedparkWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDDCC5EC15431EE80010AC37 /* redpark_lib_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDCC60E15431EE80010AC37 /* Build configuration list for PBXNativeTarget "redpark_lib_test" */;
+			buildPhases = (
+				CDDCC5E915431EE80010AC37 /* Sources */,
+				CDDCC5EA15431EE80010AC37 /* Frameworks */,
+				CDDCC5EB15431EE80010AC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redpark_lib_test;
+			productName = redpark_lib_test;
+			productReference = CDDCC5ED15431EE80010AC37 /* redpark_lib_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDDCC5E415431EE80010AC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CDDCC5E715431EE80010AC37 /* Build configuration list for PBXProject "redpark_lib_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDDCC5E215431EE80010AC37;
+			productRefGroup = CDDCC5EE15431EE80010AC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDCC5EC15431EE80010AC37 /* redpark_lib_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDDCC5EB15431EE80010AC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDCC5FC15431EE80010AC37 /* InfoPlist.strings in Resources */,
+				CDDCC60515431EE80010AC37 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CDDCC60815431EE80010AC37 /* MainStoryboard_iPad.storyboard in Resources */,
+				CD2B26F01543AE7000F2AFE5 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDDCC5E915431EE80010AC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDCC5FE15431EE80010AC37 /* main.m in Sources */,
+				CDDCC60215431EE80010AC37 /* AppDelegate.m in Sources */,
+				CDDCC60B15431EE80010AC37 /* ViewController.m in Sources */,
+				CD2B26E51543A3D800F2AFE5 /* redparkWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDDCC5FA15431EE80010AC37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDCC5FB15431EE80010AC37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDDCC60315431EE80010AC37 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDCC60415431EE80010AC37 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CDDCC60615431EE80010AC37 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDCC60715431EE80010AC37 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDDCC60C15431EE80010AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDCC60D15431EE80010AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDCC60F15431EE80010AC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "redpark_lib_test/redpark_lib_test-Prefix.pch";
+				INFOPLIST_FILE = "redpark_lib_test/redpark_lib_test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../libs/RedparkWrapper/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDDCC61015431EE80010AC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "redpark_lib_test/redpark_lib_test-Prefix.pch";
+				INFOPLIST_FILE = "redpark_lib_test/redpark_lib_test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../libs/RedparkWrapper/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDCC5E715431EE80010AC37 /* Build configuration list for PBXProject "redpark_lib_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDCC60C15431EE80010AC37 /* Debug */,
+				CDDCC60D15431EE80010AC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDCC60E15431EE80010AC37 /* Build configuration list for PBXNativeTarget "redpark_lib_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDCC60F15431EE80010AC37 /* Debug */,
+				CDDCC61015431EE80010AC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDDCC5E415431EE80010AC37 /* Project object */;
+}
