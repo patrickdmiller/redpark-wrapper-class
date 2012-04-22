@@ -1,3 +1,5 @@
+Wrapper around RedPark Serial library to make life easier.
+
 1. Add these files to your projects
     redparkWrapper.h/.m
     RscMgr.h
