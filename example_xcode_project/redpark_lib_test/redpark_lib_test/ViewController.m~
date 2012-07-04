@@ -43,7 +43,7 @@
 }
 
 - (IBAction)go:(id)sender{
-    [self.rp sendSerial:[msg text]];
+    [rp sendSerial:[msg text]];
 }
 
 // delegete ******************** /
@@ -52,8 +52,5 @@
     [res setText:msg];
 }
 
--(void)dealloc{
-  [rp release];
-  [super dealloc];
-}
+
 @end
