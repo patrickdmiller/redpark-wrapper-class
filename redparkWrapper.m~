@@ -16,7 +16,7 @@
     self = [super init];
     rscMgr = [[RscMgr alloc] init];
     [rscMgr setDelegate:self];
-    serialCommand = [[NSMutableString alloc] initWithString:@""];
+    self.serialCommand = [[NSMutableString alloc] initWithString:@""];
     return self;
 }
 
@@ -75,9 +75,6 @@
 - (void) didReceivePortConfig {
 }
 
--(void)dealloc{
-  [serialCommand release];
-  [super dealloc];
 
 
 @end
